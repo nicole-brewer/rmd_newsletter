@@ -1,0 +1,68 @@
+---
+title: "March Newsletter"
+output: 
+  blastula::blastula_email:
+    # toc: true
+    # toc_depth: 2
+    # toc does not currently work. See https://github.com/rstudio/blastula/issues/221.
+    # Developers not prioritizing this issue as discussed at https://github.com/subugoe/metacheck/issues/325
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, include=TRUE}
+# We would like to add an image for a header here, but this is currently
+# prevented my issue https://github.com/rstudio/blastula/issues/279
+#blastula::add_image(file = "../header.png", width='100%')
+blastula::block_title("Women in HPC at Purdue Newsletter")
+blastula::block_text("Bringing you updates on events and opportunities in the HPC space without clogging up your inbox!", align = "center")
+```
+
+## [Event] Women in Data Science Conference
+
+### [Register by this Friday March 4, 2022 at 5:00PM](https://maillinks.purdue.edu/t/42725714/1629343038/90084532/0/67910/?f5d63f87=V2lEUyUyMEludml0ZSUyMDIwMjI&x=af22f767)
+
+We would like to invite you to attend the 2022 Women in Data Science [(WiDS) Conference](https://maillinks.purdue.edu/t/42725714/1629343038/90079227/0/67910/?f5d63f87=V2lEUyUyMEludml0ZSUyMDIwMjI&x=0aad4d49) of Greater Lafayette. [This event](https://maillinks.purdue.edu/t/42725714/1629343038/90079224/0/67910/?f5d63f87=V2lEUyUyMEludml0ZSUyMDIwMjI&x=58f41e6b) will be **held virtually on March 7–8 from 11:00 AM–12:00 PM**. WiDS@Purdue is an independent event organized by Melissa Chomintra, Zoeanna Mayhook, and Bethany McGowan to coincide with the annual Women in Data Science (WiDS) [Worldwide Conference](https://maillinks.purdue.edu/t/42725714/1629343038/90079225/0/67910/?f5d63f87=V2lEUyUyMEludml0ZSUyMDIwMjI&x=22890f34) held at Stanford University and an estimated 150+ locations worldwide. 
+
+This year’s conference will include a panel discussion and workshop on data ethics and highlight **the role data ethics plays in good data stewardship and avoiding harm**. Additionally, there will be a **workshop on “Data Ethics practices with machine learning and AI,”** which will explore data ethics considerations in the real world, tools available to mitigate the risk from data bias, and a demonstration of a bias in a dataset. 
+
+## [Opportunity] PEARC22 Student Program
+
+### [Apply by March 31](https://form.jotform.com/220105646317145)
+
+Have you used advanced computing resources to do your research? Have you ever felt that the technical details require just as much attention as the science? Look no further than the **Practice and Experience in Advanced Research Computing Conference** (PEARC22) that will convene **July 10–14, 2021, in Boston, Massachusetts**. Short papers and poster are due [April 8, 2020](https://pearc.acm.org/pearc22/call-for-participation/). 
+
+[Student Program](https://pearc.acm.org/pearc22/call-for-participation/pearc22-sp/) (SP) highlights include an orientation day, a resumé clinic, mentor-protege pairing, an exhibitor Q&A, and a new tabling event called “The Village!” It’s **five full days of professional development** designed to help scholars envision themselves **working in research computing and data science** (RCD) careers within academia, industry, and government agencies. Apply today!
+
+### Funding
+
+Student Volunteers receive an all-access pass to the full conference, including tutorials. If you do not receive additional funds through the conference, we will fund remaining travel expenses. If you are considering applying, please [email us](mailto:brewer36@purdue.edu) so we can help you with your submission and get you connected with those of us in research computing who attend the conference.
+
+## [Training] SDSC GPU Hackathon
+
+### [Apply by March 13, 2022](https://www.gpuhackathons.org/event/san-diego-supercomputer-center-sdsc-gpu-hackathon-2022)
+
+The San Diego Supercomputer Center (SDSC) in partnership with NVIDIA and Oak Ridge National Lab is hosting a GPU Hackathon.  The Hackathon is a multi-day, intensive hands-on event, **designed to help computational scientists and researchers port, optimize, and accelerate their applications using GPUs**. These events pair participants with dedicated mentors experienced in GPU programming and development. Representing distinguished scholars and preeminent institutions from around the world, the teams of mentors and attendees work together to realize performance gains and speedups by taking advantage of parallel programming on GPUs. Participating teams can expect to either have their applications running on GPUs, or a clear roadmap of next steps to leverage GPUs. 
+
+A 2021 Experience: 
+
+ > “The virtual GPU Hackathon was an extremely useful experience. With the help of our mentors, we were able to identify key parts of our code for recoding and GPU offloading. The Hackathon was the push we needed to start optimizing our code to run efficiently on GPU nodes, and access to the Nvidia GPU A100 nodes was especially helpful. Today, 9 months after the Hackathon, we have a super-fast, fully operational GPU code.”
+ ~ Marc Gagné, Professor, Department of Earth and Space Sciences, West Chester University
+
+Please visit the [GPU Hackathons](https://www.gpuhackathons.org/event/san-diego-supercomputer-center-sdsc-gpu-hackathon-2022) for full event details.
+
+```{r, echo=FALSE, include=TRUE}
+# also prevented my issue https://github.com/rstudio/blastula/issues/279
+
+# blastula::block_social_links(
+#  blastula::social_link(
+#    service = "twitter",
+#    link = "https://twitter.com/purduewhpc",
+#    variant = "color"
+#   )
+# )
+```
+
+
