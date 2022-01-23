@@ -1,22 +1,29 @@
 ---
-title: "newsletter"
-author: "Nicole Brewer"
-date: "1/21/2022"
+title: "WHPC Newsletter - 1/21/2022"
 output: 
-  html_document:
-    theme: united
+  blastula::blastula_email:
+    # toc: true
+    # toc_depth: 2
+    # toc does not currently work. See https://github.com/rstudio/blastula/issues/221.
+    # Developers not prioritizing this issue as discussed at https://github.com/subugoe/metacheck/issues/325
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-<img src="header.png" alt="drawing" width="100%"/>
+
+```{r, echo=FALSE, include=TRUE}
+# We would like to add an image for a header here, but this is currently
+# prevented my issue https://github.com/rstudio/blastula/issues/279
+#blastula::add_image(file = "../header.png", width='100%')
+blastula::block_title("Women in HPC at Purdue Newsletter")
+```
 
 ## Hello World!
 
-Welcome to our first newsletter-style email. We hope to continute to bring you update on events and opportunities in the HPC space. 
+Welcome to our first newsletter-style email. We hope to continue to bring you update on events and opportunities in the HPC space without clogging up your inbox. 
 
-## Long Tales of Science Podcast
+## [Podcast] Long Tales of Science
 
 Because we have not been able to host in-person events, one of our recent initiatives was to start an interview podcast. In this podcast, we interview women in HPC about their research, career paths, and what it means to be a woman in technology. The goal of the podcast is to increase the representation of women in the field. Interviewees come from industry, academia, government, science, engineering, social science, and the humanities.
 
@@ -26,13 +33,13 @@ You can find the podcast on [Spotify](https://open.spotify.com/show/6cMtOYaV6w0g
 
 In this [most recent episode](https://open.spotify.com/episode/74Sh5BA7Nng96Ei4n01IFj?si=e4esDJujQkmWVVr07L5PqQ) we, interview Nancy Wilkins-Diehr, former associate director of the San Diego Supercomputer Center. In this episode, we talk about Nancy’s pathway into HPC and her involvement in TeraGrid, XSEDE, and the Science Gateways Community Institute. We also discuss the state of software-related contributions in academia, project management, navigating a career in tech, and her recent retirement. 
 
-## Upcoming Event
+## [Event] How does HPC help with your scientific research: Faculty perspectives
 
-### How does HPC help with your scientific research: Faculty perspectives
+### Tomorrow, Monday January 25th, 01:00 PM EST
 
-One of our former founders is still doing great work for Women in HPC at our sister chapter in Virginia. This event features women research leaders of the Commonwealth sharing and discussing how HPC has facilitated their scientific research and professional careers. **[Register now](https://virginia.zoom.us/meeting/register/tJYsdu6gqzkoGNJ0boZJfJl7TJr3IrQpvgwM)** to join us for this event **next Monday Jan 25, 2022, 01:00 PM EST**.
+One of our former founders is still doing great work in Virginia. This event features women research leaders of the Commonwealth sharing and discussing how HPC has facilitated their scientific research and professional careers. **[Register now](https://virginia.zoom.us/meeting/register/tJYsdu6gqzkoGNJ0boZJfJl7TJr3IrQpvgwM)** to join us for this event.
 
-#### Featured Speakers:
+### Featured Speakers:
 
 - [Anne Brown](https://www.biochem.vt.edu/people/faculty/anne-brown.html) - Virginia Tech
 She is an Assistant Professor of Biochemistry, Science Informatics Consultant, and Health Analytics Coordinator at Virginia Tech. Her research interests include utilizing computational modeling to answer biological questions and aid in drug discovery and the application of computational molecular modeling to elucidate the relationship between structure, function, and dynamics of biomolecules.
@@ -42,3 +49,23 @@ She is an Assistant Professor of Biochemistry, Science Informatics Consultant, a
  
 - [Alexis Edwards](https://vipbg.vcu.edu/people/alexis-edwards/) - Virginia Commonwealth University
 She is an Associate Professor of Psychiatry at Virginia Commonwealth University. Her research focuses on understanding the etiology of substance use disorders, suicidal behavior, and internalizing problems, including how these outcomes are related to one another.
+
+## [Opportunity] Women in IT Networking at SC
+
+### Due this Friday, January 28th
+
+The Women in IT Networking at SC (WINS) program seeks qualified female U.S. candidates in their early to mid-career to join the SCinet volunteer workforce for the SC Conference. WINS strives for diverse representation of organizations and applicant backgrounds in the cohort each year. Selected candidates will receive full travel support and mentoring by well-known engineering experts in the research and education community. **[Read more](https://sc22.supercomputing.org/scinet/wins/)** about this program and [apply here...](http://women-in-networking.net/apply-to-wins/)
+
+```{r, echo=FALSE, include=TRUE}
+# also prevented my issue https://github.com/rstudio/blastula/issues/279
+
+# blastula::block_social_links(
+#  blastula::social_link(
+#    service = "twitter",
+#    link = "https://twitter.com/purduewhpc",
+#    variant = "color"
+#   )
+# )
+```
+
+
